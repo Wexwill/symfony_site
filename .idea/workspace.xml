@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="renamed image">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Added files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708590952614</updated>
       <workItem from="1708590953963" duration="889000" />
-      <workItem from="1708592904215" duration="1635000" />
+      <workItem from="1708592904215" duration="1893000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
@@ -206,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708593177410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added files">
+      <created>1708594808978</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594808978</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fisrt commit" />
     <MESSAGE value="renamed image" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed image" />
+    <MESSAGE value="Added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files" />
   </component>
 </project>
