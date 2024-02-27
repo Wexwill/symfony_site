@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Added header to the site">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20240227133121.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20240227133633.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EntityListener/ConferenceEntityListener.php" afterDir="false" />
+    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Implemented slug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CommentCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CommentCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Conference.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Conference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/conference/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +234,7 @@
       <workItem from="1708610650919" duration="3507000" />
       <workItem from="1708679713511" duration="6475000" />
       <workItem from="1708949745987" duration="4505000" />
-      <workItem from="1709025426547" duration="5322000" />
+      <workItem from="1709025426547" duration="7432000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
@@ -336,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709030570447</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implemented slug">
+      <created>1709042209559</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709042209559</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +373,8 @@
     <MESSAGE value="Created twig templates" />
     <MESSAGE value="Created migration" />
     <MESSAGE value="Added header to the site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added header to the site" />
+    <MESSAGE value="Implemented slug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented slug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
