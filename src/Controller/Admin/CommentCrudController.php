@@ -32,9 +32,9 @@ class CommentCrudController extends AbstractCrudController
 
     public function configureFilters(Filters $filters): Filters
     {
-            return $filters
-                    ->add(EntityFilter::new('conference'))
-            ;
+        return $filters
+                ->add(EntityFilter::new('conference'))
+        ;
     }
 
     public function configureFields(string $pageName): iterable
@@ -54,9 +54,7 @@ class CommentCrudController extends AbstractCrudController
                 'widget' => 'single_text',
             ]);
         if (Crud::PAGE_EDIT === $pageName) {
-                    yield $createdAt->setFormTypeOption('disabled', true);
-                } else {
-                    yield $createdAt;
-                }
+            yield $createdAt->setFormTypeOption('disabled', true);
+        }
     }
 }
