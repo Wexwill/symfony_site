@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Added spam checker akismet">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20240229090258.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Message/CommentMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" afterDir="false" />
+    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Implemented workflow">
+      <change afterPath="$PROJECT_DIR$/config/packages/workflow.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CommentCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CommentCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Controller/ConferenceControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Controller/ConferenceControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +183,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/panther" />
       <path value="$PROJECT_DIR$/vendor/php-webdriver/webdriver" />
       <path value="$PROJECT_DIR$/vendor/dbrekelmans/bdi" />
+      <path value="$PROJECT_DIR$/vendor/symfony/workflow" />
     </include_path>
   </component>
   <component name="ProjectId" id="2ciOV82ICyXDdnrr9aXgMmUeNRz" />
@@ -260,7 +256,7 @@
       <workItem from="1708949745987" duration="4505000" />
       <workItem from="1709025426547" duration="7885000" />
       <workItem from="1709113463219" duration="4503000" />
-      <workItem from="1709193540755" duration="3435000" />
+      <workItem from="1709193540755" duration="4646000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
@@ -395,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709195153685</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Implemented assync">
+      <created>1709198801758</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709198801758</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +435,9 @@
     <MESSAGE value="Created admin user and login form" />
     <MESSAGE value="Created tests" />
     <MESSAGE value="Added spam checker akismet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added spam checker akismet" />
+    <MESSAGE value="Implemented assync" />
+    <MESSAGE value="Implemented workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented workflow" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
