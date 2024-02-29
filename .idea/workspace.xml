@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Created admin user and login form">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dama_doctrine_test_bundle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Controller/ConferenceControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Created tests">
+      <change afterPath="$PROJECT_DIR$/src/SpamChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +248,8 @@
       <workItem from="1708679713511" duration="6475000" />
       <workItem from="1708949745987" duration="4505000" />
       <workItem from="1709025426547" duration="7885000" />
-      <workItem from="1709113463219" duration="3978000" />
+      <workItem from="1709113463219" duration="4503000" />
+      <workItem from="1709193540755" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
@@ -377,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709116607487</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created tests">
+      <created>1709129966191</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709129966191</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +412,8 @@
     <MESSAGE value="Implemented slug" />
     <MESSAGE value="Created form" />
     <MESSAGE value="Created admin user and login form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created admin user and login form" />
+    <MESSAGE value="Created tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
