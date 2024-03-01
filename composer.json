@@ -35,6 +35,7 @@
         "symfony/runtime": "6.*",
         "symfony/security-bundle": "6.*",
         "symfony/serializer": "6.*",
+        "symfony/slack-notifier": "6.*",
         "symfony/stimulus-bundle": "^2.15",
         "symfony/string": "6.*",
         "symfony/translation": "6.*",

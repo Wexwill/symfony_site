@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Installed webpack with bootstrap">
-      <change afterPath="$PROJECT_DIR$/src/ImageOptimizer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/Notification/CommentReviewNotification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/workflow.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/workflow.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/notifier.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/conference/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/show.html.twig" afterDir="false" />
     </list>
+    <list id="660857dc-a11f-4022-9b1b-cd18c187b2fc" name="ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,6 +249,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="" />
+      <changelist id="660857dc-a11f-4022-9b1b-cd18c187b2fc" name="ignore" comment="" />
       <created>1708590952614</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -266,7 +265,7 @@
       <workItem from="1709025426547" duration="7885000" />
       <workItem from="1709113463219" duration="4503000" />
       <workItem from="1709193540755" duration="11112000" />
-      <workItem from="1709278189758" duration="336000" />
+      <workItem from="1709278189758" duration="3506000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
@@ -436,7 +435,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709219365557</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Class for resizing images">
+      <created>1709278653989</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709278653989</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Created cron task">
+      <created>1709279573659</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709279573659</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix">
+      <created>1709279707125</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1709279707125</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +480,6 @@
     <MESSAGE value="renamed image" />
     <MESSAGE value="Added files" />
     <MESSAGE value="Installed profiler" />
-    <MESSAGE value="fix" />
     <MESSAGE value="fixed composer" />
     <MESSAGE value="home page" />
     <MESSAGE value="Fixed containers" />
@@ -478,7 +497,10 @@
     <MESSAGE value="Sending email to admin" />
     <MESSAGE value="Setting up cache on the site" />
     <MESSAGE value="Installed webpack with bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed webpack with bootstrap" />
+    <MESSAGE value="Class for resizing images" />
+    <MESSAGE value="Created cron task" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
