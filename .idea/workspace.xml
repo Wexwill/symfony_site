@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Implemented notifications">
-      <change afterPath="$PROJECT_DIR$/spa/.platform.app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/assets/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/assets/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/public/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/public/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/public/entrypoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/public/runtime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/src/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/src/pages/conference.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/src/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spa/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/messages+intl-icu.en.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.platform/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.platform/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/conference/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/conference/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/show.html.twig" afterDir="false" />
     </list>
     <list id="660857dc-a11f-4022-9b1b-cd18c187b2fc" name="ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,6 +196,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
       <path value="$PROJECT_DIR$/vendor/symfony/slack-notifier" />
+      <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
     </include_path>
   </component>
   <component name="ProjectId" id="2ciOV82ICyXDdnrr9aXgMmUeNRz" />
@@ -282,7 +274,7 @@
       <workItem from="1709113463219" duration="4503000" />
       <workItem from="1709193540755" duration="11112000" />
       <workItem from="1709278189758" duration="7833000" />
-      <workItem from="1709363217807" duration="390000" />
+      <workItem from="1709363217807" duration="2751000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
