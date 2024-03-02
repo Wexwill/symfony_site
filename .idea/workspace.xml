@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/src/Notification/CommentReviewNotification.php" afterDir="false" />
+    <list default="true" id="4c9f618f-26ec-4629-80de-dbb309f52691" name="Changes" comment="Implemented notifications">
+      <change afterPath="$PROJECT_DIR$/spa/.platform.app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/assets/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/assets/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/public/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/public/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/public/entrypoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/public/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/src/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/src/pages/conference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/src/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/notifier.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/conference/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.platform/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.platform/routes.yaml" afterDir="false" />
     </list>
     <list id="660857dc-a11f-4022-9b1b-cd18c187b2fc" name="ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,6 +204,7 @@
       <path value="$PROJECT_DIR$/vendor/twig/inky-extra" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
+      <path value="$PROJECT_DIR$/vendor/symfony/slack-notifier" />
     </include_path>
   </component>
   <component name="ProjectId" id="2ciOV82ICyXDdnrr9aXgMmUeNRz" />
@@ -208,7 +223,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../usr/bin/php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spa/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -219,6 +234,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\var\www\projects\guestbook\spa\src\pages" />
       <recent name="\\wsl$\Ubuntu\var\www\projects\guestbook\public\images" />
     </key>
   </component>
@@ -265,7 +281,8 @@
       <workItem from="1709025426547" duration="7885000" />
       <workItem from="1709113463219" duration="4503000" />
       <workItem from="1709193540755" duration="11112000" />
-      <workItem from="1709278189758" duration="3506000" />
+      <workItem from="1709278189758" duration="7833000" />
+      <workItem from="1709363217807" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Fisrt commit">
       <created>1708593131662</created>
@@ -456,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709279707125</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Implemented notifications">
+      <created>1709298028747</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1709298028747</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +524,8 @@
     <MESSAGE value="Class for resizing images" />
     <MESSAGE value="Created cron task" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="Implemented notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented notifications" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
